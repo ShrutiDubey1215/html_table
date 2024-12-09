@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>basic table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 5px solid green;
+      }
+      th,
+      td {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="2" height="100" width="1000">
+      <th><b>S.No</b></th>
+      <th>Name</th>
+      <th>Class</th>
+      <th>Status</th>
+      <th>Office</th>
+      <th>Logged Time</th>
+      <th>Column</th>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">ABC</td>
+        <td align="center">5</td>
+        <td align="center" bgcolor="green">Pass</td>
+        <td align="center">London</td>
+        <td align="center" bgcolor="orange">28-08-2024</td>
+        <td align="center">Q1</td>
+      </tr>
+      <tr>
+        <td rowspan="2" align="center">2</td>
+        <td colspan="1" align="center">DEF</td>
+        <td rowspan="2" align="center">8</td>
+        <td rowspan="2" align="center" bgcolor="green">Pass</td>
+        <td rowspan="1" align="center">New Year</td>
+        <td rowspan="2" align="center" bgcolor="orange">01-08-2024</td>
+        <td align="center">Q2</td>
+      </tr>
+      <tr>
+        <td align="center">IJK</td>
+        <td rowspan="1" align="center">Delhi</td>
+        <td align="center">Q3</td>
+      </tr>
+      <tr>
+        <td rowspan="3" align="center">3</td>
+        <td rowspan="3" align="center"><a href="https://www.google.com">www.google.com</a></td>
+        <td align="center">10</td>
+        <td align="center" bgcolor="red">Fail</td>
+        <td rowspan="3" align="center">J<br>
+          A<br>
+          U<br>
+          N<br>
+          P<br>
+          U<br>
+          R</td>
+        <td align="center" bgcolor="orange">02-08-24</td>
+        <td align="center">Q4</td>
+      </tr>
+      <tr>
+        <td align="center">11</td>
+        <td align="center" bgcolor="red">Fail</td>
+        <td align="center" bgcolor="orange">03-08-24</td>
+        <td rowspan="2" align="center">Q5</td>
+      </tr>
+      <tr>
+        <td align="center">12</td>
+        <td align="center" bgcolor="red">Fail</td>
+        <td align="center" bgcolor="orange">04-08-24</td>
+      </tr>
+    </table>
+  </body>
+</html>
